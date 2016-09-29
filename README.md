@@ -23,4 +23,4 @@ along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
 
 # User Guide
 
-Go to http://facorread.github.io/bernoulliTrials and set the probabilities you want to play with. Next to each probability you can run a trial simply by clicking/tapping.
+Go to http://facorread.github.io/bernoulliTrials and independently set the probabilities you want to use to play the prisoner's dilemma game. You can make a choice simply by clicking/tapping next to each probability.
