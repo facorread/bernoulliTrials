@@ -5,6 +5,7 @@ Simple simulation of trials using the Bernoulli distribution.
 Copyright (C) 2016 Fabio Correa fabio5@umd.edu
 
 https://github.com/facorread/bernoulliTrials
+
 https://gitlab.com/facorread/bernoulliTrials
 
 bernoulliTrials is free software: you can redistribute it and/or modify
