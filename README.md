@@ -1,6 +1,6 @@
 # bernoulliTrials
 
-Simple simulation of events using the Bernoulli distribution.
+Simulation of choices for the prisoners dilemma using the Bernoulli distribution.
 
 Copyright (C) 2016 Fabio Correa fabio5@umd.edu
 
