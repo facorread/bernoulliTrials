@@ -1,6 +1,6 @@
 # bernoulliTrials
 
-Simple simulation of trials using the Bernoulli distribution.
+Simple simulation of events using the Bernoulli distribution.
 
 Copyright (C) 2016 Fabio Correa fabio5@umd.edu
 
