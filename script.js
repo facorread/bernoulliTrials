@@ -1,7 +1,4 @@
-# bernoulliTrials
-
-Simple simulation of trials using the Bernoulli distribution.
-
+/* This file is part of bernoulliTrials: Simple simulation of trials using the Bernoulli distribution
 Copyright (C) 2016 Fabio Correa fabio5@umd.edu
 
 https://github.com/facorread/bernoulliTrials
@@ -19,7 +16,11 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
-# User Guide
-
-Go to http://facorread.github.io/bernoulliTrials and set the probabilities you want to play with. Next to each probability you can run a trial simply by clicking/tapping.
+function simulate(n) {
+	if(Math.random() < document.forms["bernoulliForm"]["p" + n].value / 100)
+		return "Cooperate";
+	else
+		return "Defect";
+}

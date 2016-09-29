@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+This file is part of bernoulliTrials: Simple simulation of trials using the Bernoulli distribution
+Copyright (C) 2016 Fabio Correa fabio5@umd.edu
+
+https://github.com/facorread/bernoulliTrials
+https://gitlab.com/facorread/bernoulliTrials
+
+bernoulliTrials is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+bernoulliTrials is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html>
+    <head>
+				<title>Bernoulli trials by Fabio Correa</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+		<body>
+			<form name="bernoulliForm">
+				<table class="bernoulliTable">
+				<tr>
+				<th>p %</th>
+				<th style="width:100px">Trial</th>
+				</tr>
+				<tr>
+				<td><input type="number" class="p1" name="p1" min="0" max="100" size="3" value="50" required></td>
+				<td class="t1" onclick="this.innerHTML = simulate(1)">Click</td>
+				</tr>
+				<tr>
+				<td><input type="number" class="p2" name="p2" min="0" max="100" size="3" value="10" required></td>
+				<td class="t1" onclick="this.innerHTML = simulate(2)">Click</td>
+				</tr>
+				<tr>
+				<td><input type="number" class="p3" name="p3" min="0" max="100" size="3" value="90" required></td>
+				<td class="t1" onclick="this.innerHTML = simulate(3)">Click</td>
+				</tr>
+				</table>
+			</form>
+    </body>
+</html>
