@@ -31,21 +31,25 @@ along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
 				<table class="bernoulliTable">
 				<tr>
 				<th style="width:80px">p %</th>
-				<th style="width:100px">Trial</th>
+				<th style="width:220px">Trial</th>
 				</tr>
 				<tr>
 				<td><input type="number" name="p1" min="0" max="100" size="3" value="50" required></td>
-				<td class="t1" onclick="this.innerHTML = simulate(1)">Click</td>
+				<td class="t1" onclick="simulate(this, 1)">Tap</td>
 				</tr>
 				<tr>
 				<td><input type="number" name="p2" min="0" max="100" size="3" value="10" required></td>
-				<td class="t1" onclick="this.innerHTML = simulate(2)">Click</td>
+				<td class="t1" onclick="simulate(this, 2)">Tap</td>
 				</tr>
 				<tr>
 				<td><input type="number" name="p3" min="0" max="100" size="3" value="90" required></td>
-				<td class="t1" onclick="this.innerHTML = simulate(3)">Click</td>
+				<td class="t1" onclick="simulate(this, 3)">Tap</td>
 				</tr>
 				</table>
 			</form>
+			<footer>
+			<p>Set each probability independently and tap each cell repeatedly.<p>
+			<p>&copy; 2016 <a href="https://github.com/facorread/bernoulliTrials">Fabio Correa</a></p>
+			</footer>
     </body>
 </html>
