@@ -22,6 +22,7 @@ along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
     margin:0;
     padding:0;
     font-family:sans-serif;
+		font-size:200%;
     border:none;
     outline:none;
     text-align:center;
@@ -31,6 +32,6 @@ along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
 		user-select: none;
 }
 
-.bernoulliTable {
-
+.input {
+		font-size:200%;
 }
