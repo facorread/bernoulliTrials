@@ -27,9 +27,6 @@ along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
     outline:none;
     text-align:center;
 		margin: 0 auto;
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		user-select: none;
 		vertical-align:center;
 }
 
