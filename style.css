@@ -41,3 +41,9 @@ input {
 footer {
 		font-size:60%;
 }
+
+.events {
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+}
