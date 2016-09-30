@@ -23,5 +23,8 @@ function simulate(cell, n) {
 		cell.innerHTML = "Cooperate";
 	else
 		cell.innerHTML = "Defect";
-	cell.style.backgroundColor = "white";
+	cell.style.fontWeight = "bold";
+	setTimeout(function() {
+							 cell.style.fontWeight = "normal";
+						 }, 250)
 }
