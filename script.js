@@ -31,6 +31,6 @@ function simulate(cell, n) {
 		setTimeout(function() {
 								 cell.style.fontWeight = "normal";
 								 enableCells = true;
-							 }, 2000)
+							 }, 500)
 	}
 }
