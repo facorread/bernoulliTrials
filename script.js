@@ -17,19 +17,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
 */
-var indicatorStatus = true;
 
 function simulate(cell, n) {
 	if(Math.random() < document.forms["bernoulliForm"]["p" + n].value / 100)
 		cell.innerHTML = "Cooperate";
 	else
 		cell.innerHTML = "Defect";
-	var indicator = document.getElementById("indicator");
-	if(indicatorStatus) {
-		indicator.innerHTML = "&#9702;";
-		indicatorStatus = false;
-	} else {
-		indicator.innerHTML = "&#8226;";
-		indicatorStatus = true;
-	}
+	cell.style.backgroundColor = "white";
 }
