@@ -18,19 +18,9 @@ You should have received a copy of the GNU General Public License
 along with bernoulliTrials.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-var enableCells = true;
-
 function simulate(cell, n) {
-	if(enableCells) {
-		enableCells = false;
-		if(Math.random() < document.forms["bernoulliForm"]["p" + n].value / 100)
-			cell.innerHTML = "Cooperate";
-		else
-			cell.innerHTML = "Defect";
-		cell.style.fontWeight = "bold";
-		setTimeout(function() {
-								 cell.style.fontWeight = "normal";
-								 enableCells = true;
-							 }, 500)
-	}
+	if(Math.random() < document.forms["bernoulliForm"]["p" + n].value / 100)
+		cell.innerHTML = "Cooperate";
+	else
+		cell.innerHTML = "Defect";
 }
